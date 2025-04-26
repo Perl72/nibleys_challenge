@@ -1,0 +1,19 @@
+# Virtual envs
+venv/
+__pycache__/
+*.pyc
+
+# Output junk
+*.log
+*.wav
+*.json
+*.tar.gz
+*.srt
+*.vtt
+
+
+# Editor/project files
+.DS_Store
+.idea/
+.vscode/
+*.mp4

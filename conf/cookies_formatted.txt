@@ -1,0 +1,3 @@
+.instagram.com	TRUE	/	FALSE	0	csrftoken	F4h9BFEzoV8ug88PKuV1rEYAcSBHlrWn
+.instagram.com	TRUE	/	FALSE	0	sessionid	4067475941%3AYPeqq9XKTvCDY5%3A26%3AAYeys6pwhoBaw-
+
