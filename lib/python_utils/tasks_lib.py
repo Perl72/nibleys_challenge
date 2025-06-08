@@ -213,59 +213,6 @@ def get_existing_task_output(task: str, task_config: dict) -> Optional[str]:
         return None
 
 
-def extend_metadata_with_task_output(params: dict) -> dict:
-    """
-    Updates the metadata JSON to mark the task as completed with the final output path.
-    """
-    logger.info("🟠 Entering extend_metadata_with_task_output routine... ✅")
-
-    task = params.get("task")
-    json_path = params.get("full_metadata_json")
-    output_path = (
-        params.get(f"{task}_output_path")
-        or params.get("original_filename")
-        or params.get("to_process")
-    )
-
-    logger.debug(
-        f"extend_metadata_with_task_output: task={task}, output_path={output_path}, json_path={json_path}"
-    )
-
-    if not json_path or not os.path.exists(json_path):
-        logger.warning("⚠️ Metadata file not found for extension.")
-        return {"updated_metadata": None}
-
-    try:
-        with open(json_path, "r") as f:
-            data = json.load(f)
-
-        # DEBUG: Show what's in default_tasks
-        logger.debug(
-            f"default_tasks BEFORE update: {json.dumps(data.get('default_tasks', {}), indent=2)}"
-        )
-
-        if "default_tasks" in data and task and output_path:
-            data["default_tasks"][task] = output_path
-            logger.info(f"✅ Marked task '{task}' as completed: {output_path}")
-        else:
-            logger.warning(
-                f"⚠️ Task '{task}' not found in metadata OR output_path missing.\n"
-                f"  task in default_tasks: {task in data.get('default_tasks', {})}\n"
-                f"  output_path: {output_path}"
-            )
-
-        # DEBUG: Show what's going to be saved
-        logger.debug(f"📝 Final metadata before save:\n{json.dumps(data, indent=2)}")
-
-        with open(json_path, "w") as f:
-            json.dump(data, f, indent=4)
-
-        return {"updated_metadata": json_path}
-    except Exception as e:
-        logger.error(f"❌ Failed to extend metadata for task '{task}': {e}")
-        logger.debug(traceback.format_exc())
-        return {"updated_metadata": None}
-
 
 def add_default_tasks_to_metadata(
     metadata_path: str, config_path="conf/default_tasks.json"
