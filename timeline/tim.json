@@ -1,0 +1,149 @@
+{
+  "timeline": [
+    {
+      "category": "Summer Intern for CIA in Provo",
+      "lower_bound": "2000-06-01T00:00:00Z",
+      "upper_bound": "2000-08-31T23:59:59Z"
+    },
+    {
+      "category": "Graduates from BYU",
+      "lower_bound": "2001-05-01T00:00:00Z",
+      "upper_bound": "2001-06-30T23:59:59Z"
+    },
+    {
+      "category": "Fails Polygraph Exam",
+      "lower_bound": "2001-07-01T00:00:00Z",
+      "upper_bound": "2001-09-30T23:59:59Z"
+    },
+    {
+      "category": "Advent of Brian Black",
+      "lower_bound": "2002-01-01T00:00:00Z",
+      "upper_bound": "2003-12-31T23:59:59Z"
+    },
+    {
+      "category": "HSI ",
+      "lower_bound": "2008-07-01T00:00:00Z",
+      "upper_bound": "2013-10-31T23:59:59Z"
+    },
+    {
+      "category": "Founds O.U.R.",
+      "lower_bound": "2013-11-01T00:00:00Z",
+      "upper_bound": "2014-03-31T23:59:59Z"
+    },
+    {
+      "category": "Ballard's Cartegana Sex Party ",
+      "lower_bound": "2014-10-01T00:00:00Z",
+      "upper_bound": "2014-10-31T23:59:59Z"
+    },
+    {
+      "category": "Search for Gardi Mardi",
+      "lower_bound": "2015-01-01T00:00:00Z",
+      "upper_bound": "2023-07-04T23:59:59Z"
+    },
+    {
+      "category": "Sound of Freedom Filming",
+      "lower_bound": "2017-02-24T00:00:00Z",
+      "upper_bound": "2019-08-29T00:00:00Z"
+    },
+    {
+      "category": "Jane Doe GG",
+      "lower_bound": "2019-11-01T00:00:00Z",
+      "upper_bound": "2023-10-01T00:00:00Z"
+    },
+    {
+      "category": "Jane Doe CC",
+      "lower_bound": "2020-03-01T00:00:00Z",
+      "upper_bound": "2023-10-01T00:00:00Z"
+    },
+    {
+      "category": "Sound of Freedom Shelved by Disney",
+      "lower_bound": "2020-04-16T00:00:00Z",
+      "upper_bound": "2023-07-03T23:59:59Z"
+    },
+    {
+      "category": "Jane Doe AA",
+      "lower_bound": "2020-05-01T00:00:00Z",
+      "upper_bound": "2023-10-01T00:00:00Z"
+    },
+    {
+      "category": "Jane Doe BB",
+      "lower_bound": "2021-10-01T00:00:00Z",
+      "upper_bound": "2023-10-01T00:00:00Z"
+    },
+    {
+      "category": "Jane Doe DD",
+      "lower_bound": "2022-05-01T00:00:00Z",
+      "upper_bound": "2023-10-01T00:00:00Z"
+    },
+    {
+      "category": "Jane Doe EE",
+      "lower_bound": "2022-06-01T00:00:00Z",
+      "upper_bound": "2023-10-01T00:00:00Z"
+    },
+    {
+      "category": "Jane Doe FF",
+      "lower_bound": "2022-06-01T00:00:00Z",
+      "upper_bound": "2023-10-01T00:00:00Z"
+    },
+    {
+      "category": "Sound of Freedom Released",
+      "lower_bound": "2023-07-04T00:00:00Z",
+      "upper_bound": "2023-07-04T23:59:59Z"
+    },
+    {
+      "category": "Governor of Utah Calls for Criminal Investigation",
+      "lower_bound": "2023-10-03T00:00:00Z",
+      "upper_bound": "2023-10-03T23:59:59Z"
+    },
+    {
+      "category": "Reyes Says He Believes the Women",
+      "lower_bound": "2023-10-04T00:00:00Z",
+      "upper_bound": "2023-10-04T23:59:59Z"
+    },
+    {
+      "category": "LDS Church Publicly Distances from Ballard",
+      "lower_bound": "2023-10-10T00:00:00Z",
+      "upper_bound": "2023-10-10T23:59:59Z"
+    },
+    {
+      "category": "Beck and Fisher Denounce Ballard",
+      "lower_bound": "2023-10-14T00:00:00Z",
+      "upper_bound": "2023-10-14T23:59:59Z"
+    },
+    {
+      "category": "February 2024",
+      "lower_bound": "2024-02-03T00:00:00Z",
+      "upper_bound": "2024-02-05T23:59:59Z"
+    },
+    {
+      "category": "Loan Pe\u00f1a Disappears in Corrientes",
+      "lower_bound": "2024-06-12T00:00:00Z",
+      "upper_bound": "2024-06-14T23:59:59Z"
+    },
+    {
+      "category": "Canoa, Ecuador",
+      "lower_bound": "2025-02-23T00:00:00Z",
+      "upper_bound": "2025-02-24T23:59:59Z"
+    },
+    {
+      "category": "Mar del Plata, Argentina",
+      "lower_bound": "2025-02-25T00:00:00Z",
+      "upper_bound": "2025-02-25T23:59:59Z"
+    },
+    {
+      "category": "Bullrich Publicly Denounces Tim Ballard",
+      "lower_bound": "2025-04-18T00:00:00Z",
+      "upper_bound": "2025-04-20T23:59:59Z"
+    },
+    {
+      "category": "Racketeering Brazil",
+      "lower_bound": "2025-05-20T00:00:00Z",
+      "upper_bound": "2025-05-21T23:59:59Z"
+    },
+    {
+      "category": "Indicted for fraud and espionage in Argentina",
+      "lower_bound": "2025-05-25T00:00:00Z",
+      "upper_bound": "2025-06-09T23:59:59Z"
+    }
+  ]
+}
